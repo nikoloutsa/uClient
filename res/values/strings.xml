@@ -4,5 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_home">UberdustClient</string>
     <string name="menu_home_item">menu_home</string>
+    <string name="scan_button">Scan</string>
 
 </resources>
