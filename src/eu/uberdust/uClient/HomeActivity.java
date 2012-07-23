@@ -10,6 +10,9 @@ import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
+import com.actionbarsherlock.view.MenuItem;
+import eu.uberdust.uClient.R.id;
+
 
 
 public class HomeActivity extends SherlockActivity {
@@ -33,6 +36,19 @@ public class HomeActivity extends SherlockActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
     	getSupportMenuInflater().inflate(R.menu.activity_home, menu);
         return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case id.menu_home:
+                // app icon in action bar clicked; go home
+                Intent intent = new Intent(this, AboutActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
