@@ -5,7 +5,6 @@ public class Capability {
 	private String attribute;
 	private String url;
 	
-	
 	public String getUrl() {
 		return url;
 	}
