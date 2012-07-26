@@ -1,8 +1,11 @@
 package eu.uberdust.model;
 
-public class Capability {
+import java.io.Serializable;
 
-	private String attribute;
+public class Capability implements Serializable {
+
+	private String name;
+	private String value;
 	private String url;
 	
 	public String getUrl() {
@@ -11,10 +14,16 @@ public class Capability {
 	public void setUrl(String url) {
 		this.url = url;
 	}
-	public String getAttribute() {
-		return attribute;
+	public String getName() {
+		return name;
 	}
-	public void setAttribute(String attribute) {
-		this.attribute = attribute;
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getValue() {
+		return value;
+	}
+	public void setValue(String value) {
+		this.value = value;
 	}
 }

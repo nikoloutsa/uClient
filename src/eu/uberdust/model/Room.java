@@ -1,9 +1,10 @@
 package eu.uberdust.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Room {
+public class Room implements Serializable  {
 
 	private List<Capability> capabilities = new ArrayList<Capability>();
 	

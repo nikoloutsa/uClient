@@ -11,5 +11,6 @@
     <string name="nikoloutsa">Nikoloutsakos Nikolaos</string>
     <string name="prevezan">Prevezanos Ioannis</string>
     <string name="code">Uberdust Mobile is an open source project!\nCode is located at github!</string>
+    <string name="title_activity_room">RoomActivity</string>
 
 </resources>
