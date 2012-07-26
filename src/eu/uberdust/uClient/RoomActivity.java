@@ -17,6 +17,11 @@ public class RoomActivity extends Activity {
         Intent i = getIntent();
         Room room = (Room)i.getSerializableExtra("MyRoom");
         Log.d("PASS",room.getCapability(0).getName());
+        Log.d("PASS",room.getCapability(0).getValue());
+        Log.d("PASS",room.getCapability(1).getName());
+        Log.d("PASS",room.getCapability(1).getValue());
+        Log.d("PASS",room.getCapability(2).getName());
+        Log.d("PASS",room.getCapability(2).getValue());
     }
 
     @Override
