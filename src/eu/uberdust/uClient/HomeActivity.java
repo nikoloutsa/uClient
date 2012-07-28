@@ -24,10 +24,6 @@ public class HomeActivity extends SherlockActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        
-        final Button button = (Button) findViewById(R.id.scan_button);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
             	
             	Room room1 = new Room();
             	Capability capa1 = new Capability();
@@ -49,8 +45,6 @@ public class HomeActivity extends SherlockActivity {
             	/*IntentIntegrator integrator = new IntentIntegrator(HomeActivity.this);
             	integrator.initiateScan(IntentIntegrator.QR_CODE_TYPES);*/
 
-            }
-        });
     }
 
     @Override

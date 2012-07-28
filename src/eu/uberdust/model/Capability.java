@@ -7,6 +7,7 @@ public class Capability implements Serializable {
 	private String name;
 	private String value;
 	private String url;
+	private int type;
 	
 	public String getUrl() {
 		return url;
@@ -25,5 +26,11 @@ public class Capability implements Serializable {
 	}
 	public void setValue(String value) {
 		this.value = value;
+	}
+	public int getType() {
+		return type;
+	}
+	public void setType(int type) {
+		this.type = type;
 	}
 }
