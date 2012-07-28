@@ -2,5 +2,5 @@
     <item android:id="@+id/menu_home"    
         android:title="@string/menu_home" 
         android:icon="@drawable/title_about_default"
-        android:showAsAction="ifRoom|withText"/>
+        android:showAsAction="never"/>
 </menu>
