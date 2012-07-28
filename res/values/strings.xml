@@ -2,7 +2,6 @@
 
     <string name="app_name">uClient</string>
     <string name="hello_world">Hello world!</string>
-    <string name="scan_button">Scan</string>
     <string name="title_activity_home">Uberdust Client</string>
     <string name="menu_home">About</string>
     <string name="menu_settings">Settings</string>
